@@ -30,5 +30,19 @@ public class CalculoCombustivelTest {
         Assert.assertEquals(4.00f, resultados.get(1), 0f);
     }
 
+    @Test
+    public void testCalculoLitrosParaViagem_Caso300_55(){
+        CalculoCombustivel calculoCombustivel= new CalculoCombustivelImpl();
+        float gastoMedio = calculoCombustivel.calcularGastoMedio(6f, 30f);
+        Assert.assertEquals(5.00f, calculoCombustivel.calcularLitrosParaViagem(gastoMedio, 300f,55), 0f);
+    }
+
+    @Test
+    public void testCalculoLitrosParaViagem_Caso400_0(){
+        CalculoCombustivel calculoCombustivel= new CalculoCombustivelImpl();
+        float gastoMedio = calculoCombustivel.calcularGastoMedio(6f, 30f);
+        Assert.assertEquals(80.00f, calculoCombustivel.calcularLitrosParaViagem(gastoMedio, 400f,0), 0f);
+    };
+
 
 }
