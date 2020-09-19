@@ -1,1 +1,4 @@
 # fatec-labvi-atividade1
+
+Projeto de calculo de consumo de combustivel. \
+Video explicativo: https://fatecspgov-my.sharepoint.com/personal/marcelo_teixeira7_fatec_sp_gov_br/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmarcelo%5Fteixeira7%5Ffatec%5Fsp%5Fgov%5Fbr%2FDocuments%2FExplicacao%20LABVI%2DAtividade%201%2DMarcelo%20Teixeira%2Emp4&parent=%2Fpersonal%2Fmarcelo%5Fteixeira7%5Ffatec%5Fsp%5Fgov%5Fbr%2FDocuments&originalPath=aHR0cHM6Ly9mYXRlY3NwZ292LW15LnNoYXJlcG9pbnQuY29tLzp2Oi9nL3BlcnNvbmFsL21hcmNlbG9fdGVpeGVpcmE3X2ZhdGVjX3NwX2dvdl9ici9FVVFnUm94LXBKOUJpMmU1akpYQ0k5d0JXVUtoYndQV21Dckd6Wl9aM1RSRXpnP3J0aW1lPXJDWjI4QzVjMkVn
