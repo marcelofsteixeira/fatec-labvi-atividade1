@@ -11,8 +11,9 @@ public class CalculadorViagemImpl implements CalculadorViagem {
             throw new Exception("Distancia não pode ter valor igual a zero ou negativo!");
         }
 
-        float resultado = (distancia/new Gson().fromJson(carroJson, Carro.class).getGastoMedio()) -
-                new Gson().fromJson(carroJson, Carro.class).getQtdAbastacida();
+        Carro carro = new Gson().fromJson(carroJson, Carro.class);
+
+        float resultado = (distancia/carro.getGastoMedio()) - carro.getQtdAbastacida();
 
         if (resultado < 0) {
             return 0f;
